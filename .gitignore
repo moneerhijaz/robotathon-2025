@@ -6,3 +6,10 @@ dependencies.lock
 sdkconfig
 
 .DS_Store
+# Generated local build and KiCad state
+/CMakeFiles/
+/CMakeCache.txt
+/compile_commands.json
+*.kicad_prl
+*.lck
+__pycache__/
